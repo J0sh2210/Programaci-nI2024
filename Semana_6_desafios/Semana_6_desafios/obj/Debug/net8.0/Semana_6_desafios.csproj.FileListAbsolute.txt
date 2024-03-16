@@ -1,0 +1,14 @@
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\obj\Debug\net8.0\Semana_6_desafios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\obj\Debug\net8.0\Semana_6_desafios.AssemblyInfoInputs.cache
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\obj\Debug\net8.0\Semana_6_desafios.AssemblyInfo.cs
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\obj\Debug\net8.0\Semana_6_desafios.csproj.CoreCompileInputs.cache
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\bin\Debug\net8.0\Semana_6_desafios.exe
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\bin\Debug\net8.0\Semana_6_desafios.deps.json
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\bin\Debug\net8.0\Semana_6_desafios.runtimeconfig.json
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\bin\Debug\net8.0\Semana_6_desafios.dll
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\bin\Debug\net8.0\Semana_6_desafios.pdb
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\obj\Debug\net8.0\Semana_6_desafios.dll
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\obj\Debug\net8.0\refint\Semana_6_desafios.dll
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\obj\Debug\net8.0\Semana_6_desafios.pdb
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\obj\Debug\net8.0\Semana_6_desafios.genruntimeconfig.cache
+C:\Users\jomir\source\repos\Semana_6_desafios\Semana_6_desafios\obj\Debug\net8.0\ref\Semana_6_desafios.dll
