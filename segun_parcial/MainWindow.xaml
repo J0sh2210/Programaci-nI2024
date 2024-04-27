@@ -1,0 +1,28 @@
+﻿<Window x:Class="Segundo_Parcial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Segundo_Parcial"
+        mc:Ignorable="d"
+        Title="Calculadora" Height="720" Width="1280">
+    <Grid Background="Aquamarine">
+
+        <TextBox x:Name="Num2" Height="30" Width="100" Margin="290,66,410,338" Text="{Binding Path=Num2, Mode=TwoWay}"/>
+        <TextBox x:Name="Num1" Height="30" Width="100" Margin="162,66,538,338" Text="{Binding Path=Num1, Mode=TwoWay}" />
+        <TextBox x:Name="Resultado" Height="30" Width="100" Margin="420,66,280,338"  Text="{Binding Path=Resultado, Mode=TwoWay}"></TextBox>
+        <Button x:Name="Sum" Click="Suma" Width="50" Height="40" Content="+" Margin="162,113,588,281" Background="White" />
+        <Button x:Name="Rest" Click="Resta"  Width="50" Height="40" Content="-" Margin="217,113,533,281" Background="White" />
+            <Button x:Name="Multi" Click="Multiplicacion" Width="50" Height="40" Content="/" Margin="272,113,478,281" Background="White" />
+            <Button x:Name="Divi" Click="Division" Width="50" Height="40" Content="*" Margin="327,113,423,281" Background="White" />
+            <Button x:Name="Raiz_c" Click="Raiz" Width="50" Height="40" Content="Raiz" Margin="382,113,368,281" Background="White" />
+        <Button x:Name="Potencia" Width="50" Height="40" Content="Potencia" Margin="162,167,588,227" Background="White" />
+        <Button x:Name="Sen" Width="50" Height="40" Content="Sen" Margin="217,167,533,227" Background="White" />
+        <Button x:Name="Cos" Width="50" Height="40" Content="Cos" Margin="272,167,478,227" Background="White" />
+        <Button x:Name="Tan" Width="50" Height="40" Content="Tan" Margin="327,167,423,227" Background="White" />
+        <Label Content="Numero 1" FontFamily="Arial" HorizontalAlignment="Left" Margin="402,172,0,0" VerticalAlignment="Top"/>
+        <Label Content="Numero 2" FontFamily="Arial" HorizontalAlignment="Right" Margin="0,172,688,0" VerticalAlignment="Top"/>
+        <Label Content="Resultado" FontFamily="Arial" HorizontalAlignment="Left" Margin="660,172,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
