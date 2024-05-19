@@ -1,0 +1,7 @@
+Real Madrid     3    -    4     Barcelona
+PSG             2    -    1     Bayern Munich
+BVB dourtmound  1    -    0     As Roma
+Man. United     5    -    2     Ajax
+
+
+Porcentajes 90,30,20,50
