@@ -176,7 +176,7 @@ namespace DataAccess.DBServices
                 using (var command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "select *from alumnos ";
+                    command.CommandText = "select *from alumnos";
                     command.CommandType = CommandType.Text;
 
                     SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(command);

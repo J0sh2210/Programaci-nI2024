@@ -222,5 +222,7 @@ C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Presentation\ob
 C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Presentation\obj\Debug\Presentation.csproj.CopyComplete
 C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Presentation\obj\Debug\Presentation.exe
 C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Presentation\obj\Debug\Presentation.pdb
-C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Presentation\obj\Debug\Presentation.Calificaciones.resources
-C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Presentation\obj\Debug\Presentation.Agregar_callficaciones.resources
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Presentation\obj\Debug\Presentation.Calificaciones_menu.resources
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Presentation\obj\Debug\Presentation.Mostrar_calificaciones.resources
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Presentation\obj\Debug\Presentation.ver_alumnos_cali.resources
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Presentation\obj\Debug\Presentation.Agregar_calificaciones.resources

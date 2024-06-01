@@ -388,6 +388,7 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.PanelClientArea.ResumeLayout(false);
             this.panelDesktop.ResumeLayout(false);
             this.panelDesktop.PerformLayout();

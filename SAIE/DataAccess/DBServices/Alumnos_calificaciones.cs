@@ -15,7 +15,7 @@ namespace DataAccess.DBServices
 
 
 
-        public int Create_calificaciones(string Carnet, int Espanol, int Ingles, int Matematicas, int Ciencias_N, int Ciencias_S, int Compu, int Conta, int Fisica )
+        public int CreateCalificacion(string Carnet, string Espanol, string Ingles, string Matematica, string Ciencias_N, string Ciencias_S, string Computacion, string Contabilidad, string Fisica )
         {
             int result = -1;
 
@@ -25,19 +25,18 @@ namespace DataAccess.DBServices
                 using (var command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = @"insert into Calificaciones_alumnos 
-	                                        values (@carnet, @espanol, @ingles,@matematicas,@ciencias_n,@ciencias_s,@compu,@conta,@fisica)";
+                    command.CommandText = @"insert into Calificaciones_alumnos
+	                                        values (@carnet,@espanol, @ingles, @matematica,@ciencias_n,@ciencias_s,@computacion,@contabilidad,@fisica)";
                     command.Parameters.AddWithValue("@carnet", Carnet);
                     command.Parameters.AddWithValue("@espanol", Espanol);
                     command.Parameters.AddWithValue("@ingles", Ingles);
-                    command.Parameters.AddWithValue("@matematicas", Matematicas);
+                    command.Parameters.AddWithValue("@matematica", Matematica);
                     command.Parameters.AddWithValue("@ciencias_n", Ciencias_N);
                     command.Parameters.AddWithValue("@ciencias_s", Ciencias_S);
-                    command.Parameters.AddWithValue("@compu", Compu);
-                    command.Parameters.AddWithValue("@conta", Conta);
+                    command.Parameters.AddWithValue("@computacion", Computacion);
+                    command.Parameters.AddWithValue("@contabilidad", Contabilidad);
                     command.Parameters.AddWithValue("@fisica", Fisica);
-                   
-
+                    
                     command.CommandType = CommandType.Text;
                     result = command.ExecuteNonQuery();
                 }
@@ -97,7 +96,7 @@ namespace DataAccess.DBServices
             }
             return result;
         }
-        public Alumno GetAlumnoByCarnet(int Carnet)
+        public Alumno GetAlumnoByNum(int Numero)
         {
             using (var connection = GetConnection())
             {
@@ -105,8 +104,8 @@ namespace DataAccess.DBServices
                 using (var command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "select *from Calificaciones_alumnos where Carnet=@";
-                    command.Parameters.AddWithValue("@carnet", Carnet);
+                    command.CommandText = "select *from alumnos where Numero=@numero";
+                    command.Parameters.AddWithValue("@numero", Numero);
                     command.CommandType = CommandType.Text;
 
                     SqlDataReader reader = command.ExecuteReader();
@@ -167,24 +166,43 @@ namespace DataAccess.DBServices
                 }
             }
         }
-        public DataTable GetAllCalificaciones()
+        public DataTable GetAllAlumnos()
         {
-            DataTable Califiaciones_alumnos = new DataTable();
+            DataTable Alumno = new DataTable();
             using (var connection = GetConnection())
             {
                 connection.Open();
                 using (var command = new SqlCommand())
                 {
                     command.Connection = connection;
-                    command.CommandText = "select *from Calificaciones_alumnos ";
+                    command.CommandText = "select *from alumnos where Carnet=@carnet";
                     command.CommandType = CommandType.Text;
-                    
+
                     SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(command);
 
-                    sqlDataAdapter.Fill(Califiaciones_alumnos);
+                    sqlDataAdapter.Fill(Alumno);
                 }
             }
-            return Califiaciones_alumnos;
+            return Alumno;
+        }
+        public DataTable GetAllCalificaciones()
+        {
+            DataTable Calificaciones = new DataTable();
+            using (var connection = GetConnection())
+            {
+                connection.Open();
+                using (var command = new SqlCommand())
+                {
+                    command.Connection = connection;
+                    command.CommandText = "select *from Calificaciones_alumnos";
+                    command.CommandType = CommandType.Text;
+
+                    SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(command);
+
+                    sqlDataAdapter.Fill(Calificaciones);
+                }
+            }
+            return Calificaciones;
         }
     }
 }

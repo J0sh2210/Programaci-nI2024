@@ -57,11 +57,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agregar_callficaciones.cs">
+    <Compile Include="Agregar_calificaciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Agregar_callficaciones.Designer.cs">
-      <DependentUpon>Agregar_callficaciones.cs</DependentUpon>
+    <Compile Include="Agregar_calificaciones.Designer.cs">
+      <DependentUpon>Agregar_calificaciones.cs</DependentUpon>
     </Compile>
     <Compile Include="BaseForms\BaseFixedForm.cs">
       <SubType>Form</SubType>
@@ -69,11 +69,11 @@
     <Compile Include="BaseForms\BaseMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Calificaciones.cs">
+    <Compile Include="Calificaciones_menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Calificaciones.Designer.cs">
-      <DependentUpon>Calificaciones.cs</DependentUpon>
+    <Compile Include="Calificaciones_menu.Designer.cs">
+      <DependentUpon>Calificaciones_menu.cs</DependentUpon>
     </Compile>
     <Compile Include="ChildForms\FormUserMaintenance.cs">
       <SubType>Form</SubType>
@@ -113,6 +113,12 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mostrar_calificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mostrar_calificaciones.Designer.cs">
+      <DependentUpon>Mostrar_calificaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registro_alumnos.cs">
@@ -123,14 +129,20 @@
     </Compile>
     <Compile Include="Utils\ExceptionManager.cs" />
     <Compile Include="Utils\ItemConverter.cs" />
+    <Compile Include="Ver_alumnos_cali.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ver_alumnos_cali.Designer.cs">
+      <DependentUpon>Ver_alumnos_cali.cs</DependentUpon>
+    </Compile>
     <Compile Include="WelcomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="WelcomeForm.Designer.cs">
       <DependentUpon>WelcomeForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Agregar_callficaciones.resx">
-      <DependentUpon>Agregar_callficaciones.cs</DependentUpon>
+    <EmbeddedResource Include="Agregar_calificaciones.resx">
+      <DependentUpon>Agregar_calificaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BaseForms\BaseFixedForm.resx">
       <DependentUpon>BaseFixedForm.cs</DependentUpon>
@@ -138,8 +150,8 @@
     <EmbeddedResource Include="BaseForms\BaseMainForm.resx">
       <DependentUpon>BaseMainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Calificaciones.resx">
-      <DependentUpon>Calificaciones.cs</DependentUpon>
+    <EmbeddedResource Include="Calificaciones_menu.resx">
+      <DependentUpon>Calificaciones_menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChildForms\FormUserMaintenance.resx">
       <DependentUpon>FormUserMaintenance.cs</DependentUpon>
@@ -159,6 +171,9 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Mostrar_calificaciones.resx">
+      <DependentUpon>Mostrar_calificaciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -171,6 +186,9 @@
     </Compile>
     <EmbeddedResource Include="Registro_alumnos.resx">
       <DependentUpon>Registro_alumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ver_alumnos_cali.resx">
+      <DependentUpon>Ver_alumnos_cali.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WelcomeForm.resx">
       <DependentUpon>WelcomeForm.cs</DependentUpon>

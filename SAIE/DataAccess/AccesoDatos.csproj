@@ -42,9 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DBServices\Alumos_calificaciones.cs" />
+    <Compile Include="DBServices\Alumnos_calificaciones.cs" />
     <Compile Include="DBServices\ConnectionToSql.cs" />
     <Compile Include="DBServices\Entities\Alumno.cs" />
+    <Compile Include="DBServices\Entities\Calificaciones.cs" />
     <Compile Include="DBServices\Entities\User.cs" />
     <Compile Include="DBServices\Alumnos_registro.cs" />
     <Compile Include="DBServices\UserDao.cs" />

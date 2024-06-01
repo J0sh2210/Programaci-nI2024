@@ -284,8 +284,13 @@ namespace Presentation
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Calificaciones calificaciones = new Calificaciones();
-            calificaciones.Show();  
+        Calificaciones_menu calificaciones_Menu = new Calificaciones_menu();
+            calificaciones_Menu.Show();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
