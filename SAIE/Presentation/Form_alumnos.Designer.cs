@@ -41,6 +41,7 @@
             this.datagridalumnos.Name = "datagridalumnos";
             this.datagridalumnos.Size = new System.Drawing.Size(776, 396);
             this.datagridalumnos.TabIndex = 0;
+            this.datagridalumnos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagridalumnos_CellContentClick);
             // 
             // Boton_agregar
             // 

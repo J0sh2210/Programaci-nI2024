@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Editar_alumno));
             this.comboB_Pago = new System.Windows.Forms.ComboBox();
             this.dt_fecha_nac = new System.Windows.Forms.DateTimePicker();
             this.dt_fecha_ins = new System.Windows.Forms.DateTimePicker();
@@ -53,6 +54,7 @@
             // 
             // comboB_Pago
             // 
+            this.comboB_Pago.BackColor = System.Drawing.SystemColors.Control;
             this.comboB_Pago.FormattingEnabled = true;
             this.comboB_Pago.Items.AddRange(new object[] {
             "Si",
@@ -64,6 +66,7 @@
             // 
             // dt_fecha_nac
             // 
+            this.dt_fecha_nac.CalendarMonthBackground = System.Drawing.SystemColors.Control;
             this.dt_fecha_nac.Location = new System.Drawing.Point(198, 216);
             this.dt_fecha_nac.Name = "dt_fecha_nac";
             this.dt_fecha_nac.Size = new System.Drawing.Size(197, 20);
@@ -71,6 +74,7 @@
             // 
             // dt_fecha_ins
             // 
+            this.dt_fecha_ins.CalendarMonthBackground = System.Drawing.SystemColors.Control;
             this.dt_fecha_ins.Location = new System.Drawing.Point(198, 171);
             this.dt_fecha_ins.Name = "dt_fecha_ins";
             this.dt_fecha_ins.Size = new System.Drawing.Size(197, 20);
@@ -169,6 +173,7 @@
             // 
             // text_Nombre_Encargado
             // 
+            this.text_Nombre_Encargado.BackColor = System.Drawing.SystemColors.Control;
             this.text_Nombre_Encargado.Location = new System.Drawing.Point(637, 171);
             this.text_Nombre_Encargado.Name = "text_Nombre_Encargado";
             this.text_Nombre_Encargado.Size = new System.Drawing.Size(100, 20);
@@ -176,6 +181,7 @@
             // 
             // text_Num_encargado
             // 
+            this.text_Num_encargado.BackColor = System.Drawing.SystemColors.Control;
             this.text_Num_encargado.Location = new System.Drawing.Point(637, 124);
             this.text_Num_encargado.Name = "text_Num_encargado";
             this.text_Num_encargado.Size = new System.Drawing.Size(100, 20);
@@ -183,6 +189,7 @@
             // 
             // text_Seccion
             // 
+            this.text_Seccion.BackColor = System.Drawing.SystemColors.Control;
             this.text_Seccion.Location = new System.Drawing.Point(637, 82);
             this.text_Seccion.Name = "text_Seccion";
             this.text_Seccion.Size = new System.Drawing.Size(100, 20);
@@ -190,6 +197,7 @@
             // 
             // text_Grado
             // 
+            this.text_Grado.BackColor = System.Drawing.SystemColors.Control;
             this.text_Grado.Location = new System.Drawing.Point(637, 40);
             this.text_Grado.Name = "text_Grado";
             this.text_Grado.Size = new System.Drawing.Size(100, 20);
@@ -197,6 +205,7 @@
             // 
             // textCarnet
             // 
+            this.textCarnet.BackColor = System.Drawing.SystemColors.Control;
             this.textCarnet.Location = new System.Drawing.Point(209, 124);
             this.textCarnet.Name = "textCarnet";
             this.textCarnet.Size = new System.Drawing.Size(100, 20);
@@ -204,6 +213,7 @@
             // 
             // text_apellido
             // 
+            this.text_apellido.BackColor = System.Drawing.SystemColors.Control;
             this.text_apellido.Location = new System.Drawing.Point(209, 82);
             this.text_apellido.Name = "text_apellido";
             this.text_apellido.Size = new System.Drawing.Size(100, 20);
@@ -220,6 +230,7 @@
             // 
             // text_nombre
             // 
+            this.text_nombre.BackColor = System.Drawing.SystemColors.Control;
             this.text_nombre.Location = new System.Drawing.Point(209, 40);
             this.text_nombre.Name = "text_nombre";
             this.text_nombre.Size = new System.Drawing.Size(100, 20);
@@ -251,6 +262,7 @@
             this.Controls.Add(this.text_apellido);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.text_nombre);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Editar_alumno";
             this.Text = "Editar_alumno";
             this.Load += new System.EventHandler(this.Editar_alumno_Load);

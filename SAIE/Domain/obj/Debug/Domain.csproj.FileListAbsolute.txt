@@ -51,3 +51,14 @@ C:\Users\jomir\source\repos\SAIE\Domain\obj\Debug\Domain.csproj.CoreCompileInput
 C:\Users\jomir\source\repos\SAIE\Domain\obj\Debug\Domain.csproj.CopyComplete
 C:\Users\jomir\source\repos\SAIE\Domain\obj\Debug\Domain.dll
 C:\Users\jomir\source\repos\SAIE\Domain\obj\Debug\Domain.pdb
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Domain\bin\Debug\Domain.dll
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Domain\bin\Debug\Domain.pdb
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Domain\bin\Debug\Common.dll
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Domain\bin\Debug\DataAccess.dll
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Domain\bin\Debug\Common.pdb
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Domain\bin\Debug\DataAccess.pdb
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Domain\obj\Debug\Domain.csproj.AssemblyReference.cache
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Domain\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Domain\obj\Debug\Domain.dll
+C:\Users\jomir\OneDrive\Documentos\GitHub\Programaci-nI2024\SAIE\Domain\obj\Debug\Domain.pdb

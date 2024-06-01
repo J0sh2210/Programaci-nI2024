@@ -44,5 +44,10 @@ namespace Presentation
             editar_alumno.Show();
             this.Close();
         }
+
+        private void datagridalumnos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

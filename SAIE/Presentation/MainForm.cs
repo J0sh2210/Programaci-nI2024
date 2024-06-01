@@ -284,7 +284,8 @@ namespace Presentation
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Calificaciones calificaciones = new Calificaciones();
+            calificaciones.Show();  
         }
     }
 }
