@@ -58,5 +58,25 @@ namespace Presentation
                 MessageBox.Show("No se pudo guardar los datos");
             }
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUsers_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnAlumnos_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

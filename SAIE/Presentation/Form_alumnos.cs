@@ -37,12 +37,16 @@ namespace Presentation
 
         private void Editar_alum_Click(object sender, EventArgs e)
         {
-            
-            int Seleccion;
-            Seleccion = datagridalumnos.SelectedRows[0].Index;
-            Editar_alumno editar_alumno = new Editar_alumno(Seleccion);
-            editar_alumno.Show();
-            this.Close();
+            try {
+                int Seleccion;
+                Seleccion = datagridalumnos.SelectedRows[0].Index;
+                Editar_alumno editar_alumno = new Editar_alumno(Seleccion);
+                editar_alumno.Show();
+                this.Close();
+            } catch
+            {
+                MessageBox.Show("Seleccione la columna");
+            }
         }
 
         private void datagridalumnos_CellContentClick(object sender, DataGridViewCellEventArgs e)

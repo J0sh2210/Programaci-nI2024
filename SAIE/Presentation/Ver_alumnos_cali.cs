@@ -41,5 +41,10 @@ namespace Presentation
                 MessageBox.Show("Seleccione una opción");
             }
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
