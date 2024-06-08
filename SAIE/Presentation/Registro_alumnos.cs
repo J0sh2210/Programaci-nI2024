@@ -57,5 +57,10 @@ namespace Presentation
                 MessageBox.Show("No se pudo guardar los datos");
             }
         }
+
+        private void comboB_Pago_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

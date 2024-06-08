@@ -476,11 +476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jomir\\source\\repos\\PruebaCRUD\\PruebaCRUD\\PruebaCRUD.csproj",
+      "projectUniqueName": "C:\\Users\\jomir\\OneDrive\\Documentos\\GitHub\\Programaci-nI2024\\PruebaCRUD\\PruebaCRUD\\PruebaCRUD.csproj",
       "projectName": "PruebaCRUD",
-      "projectPath": "C:\\Users\\jomir\\source\\repos\\PruebaCRUD\\PruebaCRUD\\PruebaCRUD.csproj",
+      "projectPath": "C:\\Users\\jomir\\OneDrive\\Documentos\\GitHub\\Programaci-nI2024\\PruebaCRUD\\PruebaCRUD\\PruebaCRUD.csproj",
       "packagesPath": "C:\\Users\\jomir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jomir\\source\\repos\\PruebaCRUD\\PruebaCRUD\\obj\\",
+      "outputPath": "C:\\Users\\jomir\\OneDrive\\Documentos\\GitHub\\Programaci-nI2024\\PruebaCRUD\\PruebaCRUD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

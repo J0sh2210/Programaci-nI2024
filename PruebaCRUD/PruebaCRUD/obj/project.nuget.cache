@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s3MHHtsE/x8nfNRDIieIEBR3rYeMx7lIqAF8XJNjjWB4OuRVXMOjOb5EWO362fia45NqQtFFIPV9nVYMkBztEg==",
+  "dgSpecHash": "ARD54MpkZNKHc2HE9RuEr7w7hAfE1/gI8bHP+qymNnJUDMNVN5seSzk2gVnsFJOYQznzPKmbMKrNaRqo6fXBRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jomir\\source\\repos\\PruebaCRUD\\PruebaCRUD\\PruebaCRUD.csproj",
+  "projectFilePath": "C:\\Users\\jomir\\OneDrive\\Documentos\\GitHub\\Programaci-nI2024\\PruebaCRUD\\PruebaCRUD\\PruebaCRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jomir\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\jomir\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

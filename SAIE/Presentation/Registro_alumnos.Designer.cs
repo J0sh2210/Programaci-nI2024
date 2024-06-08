@@ -274,6 +274,7 @@
             this.comboB_Pago.Name = "comboB_Pago";
             this.comboB_Pago.Size = new System.Drawing.Size(133, 21);
             this.comboB_Pago.TabIndex = 24;
+            this.comboB_Pago.SelectedIndexChanged += new System.EventHandler(this.comboB_Pago_SelectedIndexChanged);
             // 
             // panelTitleBar
             // 

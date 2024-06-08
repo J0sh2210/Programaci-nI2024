@@ -14,7 +14,8 @@ namespace PruebaCRUD
         public static SqlConnection BDConectar()
         {
             SqlConnection conn = new SqlConnection("Server=DESKTOP-EEIL3D5; DataBase= PracticaCRUD; Integrated Security= true");
-           conn.Open();
+
+         conn.Open();
         return conn;
 
         }
