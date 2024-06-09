@@ -1,0 +1,18 @@
+CREATE DATABASE Mantenimiento_final
+
+Create table Alumnos (
+Carnet varchar(50) primary key,
+Nombre varchar(50),
+Telefono varchar(50),
+Grado varchar(50),
+Usuario varchar(50)
+)
+
+Create table Usuarios(
+usuario varchar(50) primary key,
+nombre varchar(50)
+)
+
+insert into Usuarios (usuario,nombre) values('Josh2210','Josue Ramirez')
+
+
